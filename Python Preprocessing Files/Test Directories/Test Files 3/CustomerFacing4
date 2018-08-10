@@ -1,0 +1,13 @@
+Users should not communicate passwords by phone.
+Users must not create passwords in the set of strings with a run of 3 or more consecutive characters in sequence.
+Users should not communicate passwords to anyone.
+Users should not create passwords with a substring in the set of personally identifying information.
+Users should not create passwords in the set of incremental changes to existing passwords (unspec).
+Users should not store passwords online in clear text or weakly encrypted.
+Users should create passwords with length greater than or equal to 8 characters.
+Users should not create passwords in the set of passwords to an outside system.
+Users should not create passwords in the set of dictionary words preceded or followed by a number or special character (unspec).
+Users should not create passwords in the set of dictionary words.
+Users should not create passwords with a substring in the set of strings with word or number patterns (unspec).
+Users should not create passwords with a substring in the set of proper nouns.
+Users should not store passwords in writing anywhere.

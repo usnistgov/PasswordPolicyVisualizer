@@ -1,0 +1,227 @@
+/* No selecting text :) */
+* {
+   -moz-user-select: -moz-none;
+   -khtml-user-select: none;
+   -webkit-user-select: none;
+   -ms-user-select: none;
+   user-select: none;
+}
+
+
+/*Menu*/
+.menubar {
+  font-family: "Bookman Old Style";
+  overflow: hidden;
+  font-weight: 500;
+  font-size: 28px;
+  fill: #fff;
+  text-anchor: middle;
+  pointer-events: none;
+}
+
+.boxes-text {
+  font-size: 20px;
+  fill: #fff;
+  pointer-events: none;
+  text-anchor: middle;
+}
+
+.option-text {
+  font-size: 20px;
+  fill: #fff;
+  pointer-events: none;
+}
+
+.colored-option-text {
+  font-size: 20px;
+  fill: "black";
+  pointer-events: none;
+}
+
+.dropdown--shown {
+  opacity: 1;
+  transition: opacity 300ms;
+}
+
+.dropdown {
+  opacity: 0;
+  transition: opacity 300ms;
+}
+
+.key-dropdown {
+  opacity: 0;
+  transition: opacity 300ms;
+}
+
+.key-dropdown--shown {
+  opacity: 1;
+  transition: opacity 300ms;
+}
+
+.key-text {
+  pointer-events: none;
+  font-size: 20px;
+  fill: #fff;
+  word-spacing: 2px;
+  white-space: pre;
+}
+
+.key-text-verb {
+  pointer-events: none;
+  font-size: 18px;
+  fill: #6C6B6B;
+}
+
+.key-text-verb--shown {
+  pointer-events: none;
+  font-size: 18px;
+  fill: #fff;
+}
+
+.stats-dropdown {
+  opacity: 0;
+  transition: opacity 300ms;
+}
+
+.stats-dropdown--shown {
+  opacity: 1;
+  transition: opacity 300ms;
+}
+
+.stats-text {
+  pointer-events: none;
+  font-size: 21px;
+  fill: #fff;
+  word-spacing: 2px;
+  white-space: pre;
+}
+
+.stats-text-small {
+  pointer-events: none;
+  font-size: 17px;
+  fill: #fff;
+  word-spacing: 2px;
+  white-space: pre;
+}
+
+.menubutton:hover .boxes, .menubutton:hover .hidden-square, .option:hover {
+  fill: #7C7C7C;
+  cursor: pointer;
+}
+
+.colored-option--1:hover {
+  fill: #89D5E7;
+  cursor: pointer;
+}
+
+.colored-option--2:hover {
+  fill: #FFEE84;
+  cursor: pointer;
+}
+
+
+/*Visual*/
+body {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  /*
+  looks cool but makes harder to interpret
+  background: linear-gradient(#EEFFFF, #FFFEC2);
+  */
+}
+
+.g-link {
+  stroke: #ccc;
+  stroke-width: 3px;
+  fill: none;
+  transition: stroke-width 100ms;
+  transition: stroke 400ms;
+}
+
+.g-link-1, .g-link-1.g-link-2--faded {
+  stroke: #0090B0;
+  stroke-width: 15px;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-opacity: 0.7;
+  transition: stroke-width 100ms;
+  transition: stroke 400ms;
+}
+
+.g-link-2, .g-link-2.g-link-1--faded {
+  stroke: #F0A000;
+  stroke-width: 15px;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-opacity: 0.7;
+  transition: stroke-width 100ms;
+  transition: stroke 400ms;
+}
+
+.g-link-1.g-link-2 {
+  stroke: #1AD133;
+  stroke-width: 15px;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-opacity: 0.8;
+  transition: stroke-width 100ms;
+  transition: stroke 400ms;
+}
+
+.g-link-1--faded {
+  stroke: #02D1FF;
+  stroke-width: 15px;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-opacity: 0.3;
+  transition: stroke-width 100ms;
+  transition: stroke 400ms;
+}
+
+.g-link-2--faded {
+  stroke: #EDC168;
+  stroke-width: 15px;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-opacity: 0.3;
+  transition: stroke-width 100ms;
+  transition: stroke 400ms;
+}
+
+.g-link-1--faded.g-link-2--faded {
+  stroke: #34FF02;
+  stroke-width: 15px;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-opacity: 0.3;
+  transition: stroke-width 100ms;
+  transition: stroke 400ms;
+}
+
+.node-menu-circle {
+  fill: #fff;
+}
+
+.g-text {
+  pointer-events: none;
+  font-size: 20px;
+  font-weight: normal;
+}
+
+.g-text--big {
+  pointer-events: none;
+  font-size: 34px;
+  font-weight: normal;
+}
+
+/*.expanded-link {  */
+/*  stroke: #000000;*/
+/*  stroke-linecap: round;*/
+/*  stroke-linejoin: round;*/
+/*  stroke-opacity: 0.4;*/
+/*  stroke-width: 20px;*/
+/*  transition: stroke-width 100ms;*/
+/*  transition: stroke 400ms;*/
+/*  fill: none*/
+/*}*/

@@ -1,0 +1,112 @@
+verb,child0,child1,child2,child3,child4,child5
+X,Users,Create Passwords,With length greater than or equal to /number/ characters,,,
+X,Users,Create Passwords,With a character in the set of /char set/,,,
+X,Users,Create Passwords,With all characters in the set of /char set/,,,
+X,Users,Create Passwords,With a character in the first /number/ characters in the set of /char set/,,,
+X,Users,Create Passwords,With /number/ or more characters in the set of /char set/,,,
+X,Users,Create Passwords,With an internal character in the set of /char set/,,,
+X,Users,Create Passwords,With a first or last character in the set of /char set/,,,
+X,Users,Create Passwords,\s,Equal to,The user ID,
+X,Users,Create Passwords,\s,Equal to,Their name,
+X,Users,Create Passwords,\s,In the set of,Dictionary Words,
+X,Users,Create Passwords,\s,In the set of,Dictionary Words +,Followed by a number
+X,Users,Create Passwords,\s,In the set of,Dictionary Words +,In reverse
+X,Users,Create Passwords,\s,In the set of,Dictionary Words +,With numbers substituted for letters
+X,Users,Create Passwords,\s,In the set of,Dictionary Words +,Preceded or followed by a number or special character (unspec)
+X,Users,Create Passwords,\s,In the set of,Otherwise forbidden content,Concatenated
+X,Users,Create Passwords,\s,In the set of,Otherwise forbidden content,In reverse
+X,Users,Create Passwords,\s,In the set of,Otherwise forbidden content,Preceded or followed by a number
+X,Users,Create Passwords,\s,In the set of,Their last,/number/ passwords
+X,Users,Create Passwords,\s,In the set of,Their last,/number/ years of passwords
+X,Users,Create Passwords,\s,In the set of,Strings with,A character repeated /number/ or more times consecutively
+X,Users,Create Passwords,\s,In the set of,Strings with,A character repeated /number/ or more times
+X,Users,Create Passwords,\s,In the set of,Strings with,A run of /number/ or more consecutive characters in sequence
+X,Users,Create Passwords,\s,In the set of,Strings with,At least /number/ unique characters
+X,Users,Create Passwords,\s,In the set of,Strings with,Characters from /number/ of these /number/ sets:
+X,Users,Create Passwords,\s,In the set of,Strings with,Word or number patterns (unspec)
+X,Users,Create Passwords,\s,In the set of,passwords,To an outside system
+X,Users,Create Passwords,\s,In the set of,passwords,To any other system
+X,Users,Create Passwords,\s,In the set of,Those passwords used /number/ times in the last /number/ years,
+X,Users,Create Passwords,\s,In the set of,Proper nouns,
+X,Users,Create Passwords,\s,In the set of,Incremental changes to existing passwords (unspec),
+X,Users,Create Passwords,\s,In the set of,Personally identifying information,
+X,Users,Create Passwords,\s,In the set of,Vendor default passwords,
+X,Users,Create Passwords,\s,In the set of,Addresses or other locations,
+X,Users,Create Passwords,\s,In the set of,Birthdays or other dates,
+X,Users,Create Passwords,With a substring,Equal to,The user ID ,
+X,Users,Create Passwords,With a substring,Equal to,Their name ,
+X,Users,Create Passwords,With a substring,In the set of ,Dictionary Words,
+X,Users,Create Passwords,With a substring,In the set of ,Dictionary Words + ,Followed by a number
+X,Users,Create Passwords,With a substring,In the set of ,Dictionary Words + ,In reverse
+X,Users,Create Passwords,With a substring,In the set of ,Dictionary Words + ,With numbers substituted for letters
+X,Users,Create Passwords,With a substring,In the set of ,Dictionary Words + ,Preceded or followed by a number or special character (unspec)
+X,Users,Create Passwords,With a substring,In the set of ,Otherwise forbidden content ,Concatenated
+X,Users,Create Passwords,With a substring,In the set of ,Otherwise forbidden content ,In reverse
+X,Users,Create Passwords,With a substring,In the set of ,Otherwise forbidden content ,Preceded or followed by a number
+X,Users,Create Passwords,With a substring,In the set of ,Their last ,/number/ passwords
+X,Users,Create Passwords,With a substring,In the set of ,Their last ,/number/ years of passwords
+X,Users,Create Passwords,With a substring,In the set of ,Strings with ,A character repeated /number/ or more times consecutively
+X,Users,Create Passwords,With a substring,In the set of ,Strings with ,A character repeated /number/ or more times
+X,Users,Create Passwords,With a substring,In the set of ,Strings with ,A run of /number/ or more consecutive characters in sequence
+X,Users,Create Passwords,With a substring,In the set of ,Strings with ,At least /number/ unique characters
+X,Users,Create Passwords,With a substring,In the set of ,Strings with ,Characters from /number/ of these /number/ sets:
+X,Users,Create Passwords,With a substring,In the set of ,Strings with ,Word or number patterns (unspec)
+X,Users,Create Passwords,With a substring,In the set of ,passwords ,To an outside system
+X,Users,Create Passwords,With a substring,In the set of ,passwords ,To any other system
+X,Users,Create Passwords,With a substring,In the set of ,Those passwords used /number/ times in the last /number/ years ,
+X,Users,Create Passwords,With a substring,In the set of ,Proper nouns ,
+X,Users,Create Passwords,With a substring,In the set of ,Incremental changes to existing passwords (unspec) ,
+X,Users,Create Passwords,With a substring,In the set of ,Personally identifying information ,
+X,Users,Create Passwords,With a substring,In the set of ,Vendor default passwords ,
+X,Users,Create Passwords,With a substring,In the set of ,Addresses or other locations ,
+X,Users,Create Passwords,With a substring,In the set of ,Birthdays or other dates ,
+X,Users,Store Passwords,In writing,Anywhere,,
+X,Users,Store Passwords,In writing,In a secure location,,
+X,Users,Store Passwords,In writing,In an unsecure location,,
+X,Users,Store Passwords,In writing,In automated scripts,,
+X,Users,Store Passwords,In writing,In clear text or weakly encrypted,,
+X,Users,Store Passwords,In writing,In clear text in an unsecure location,,
+X,Users,Store Passwords,In writing,On outside systems,,
+X,Users,Store Passwords,Online,Anywhere,,
+X,Users,Store Passwords,Online,In a secure location,,
+X,Users,Store Passwords,Online,In an unsecure location,,
+X,Users,Store Passwords,Online,In automated scripts,,
+X,Users,Store Passwords,Online,In clear text or weakly encrypted,,
+X,Users,Store Passwords,Online,In clear text in an unsecure location,,
+X,Users,Store Passwords,Online,On outside systems,,
+X,Users,Fail to authenticate,/number/ times in a /number/ /time unit/ interval,to avoid,Administrative unlock or a /number/ /time unit/ lockout,
+X,Users,Fail to authenticate,/number/ times in a /number/ /time unit/ interval,to avoid,Administrative unlock,
+X,Users,Fail to authenticate,/number/ times in a /number/ /time unit/ interval,to avoid,A lockout of unspecified duration,
+X,Users,Fail to authenticate,/number/ times in a /number/ /time unit/ interval,to avoid,A /number/ /time unit/ lockout,
+X,Users,Fail to authenticate,/number/ times,to avoid,Administrative unlock or a /number/ /time unit/ lockout ,
+X,Users,Fail to authenticate,/number/ times,to avoid,Administrative unlock ,
+X,Users,Fail to authenticate,/number/ times,to avoid,A lockout of unspecified duration ,
+X,Users,Fail to authenticate,/number/ times,to avoid,A /number/ /time unit/ lockout ,
+X,Users,Change Passwords,Before /number/ days,,,
+X,Users,Change Passwords,Before /number/ days if,Compromised,,
+X,Users,Change Passwords,Before /number/ days if,Directed By Management,,
+X,Users,Change Passwords,Before /number/ days if,Found Non-Compliant,,
+X,Users,Change Passwords,Before /number/ days if,Sent Unencrypted,,
+X,Users,Change Passwords,Before /number/ days if,Shared,,
+X,Users,Change Passwords,Immediately if,Compromised,,
+X,Users,Change Passwords,Immediately if,Directed By Management,,
+X,Users,Change Passwords,Immediately if,Found Non-Compliant,,
+X,Users,Change Passwords,Immediately if,Sent Unencrypted,,
+X,Users,Change Passwords,Immediately if,Shared,,
+X,Users,Communicate Passwords,Except in an emergency,,,
+X,Users,Communicate Passwords,To,A third Party,,
+X,Users,Communicate Passwords,To,Anyone,,
+X,Users,Communicate Passwords,by,Any means,,
+X,Users,Communicate Passwords,by,Any Network without encryption,,
+X,Users,Communicate Passwords,by,Any network,,
+X,Users,Communicate Passwords,by,Email without encryption,,
+X,Users,Communicate Passwords,by,Email,,
+X,Users,Communicate Passwords,by,Mail without encryption,,
+X,Users,Communicate Passwords,by,Mail accompanied by the user ID,,
+X,Users,Communicate Passwords,by,Mail,,
+X,Users,Communicate Passwords,by,Phone Mail,,
+X,Users,Communicate Passwords,by,Phone,,
+X,Users,Communicate Passwords,by,Internet or wide-area network,,
+X,Users,Communicate Passwords,by,Internet or wide-area network without encryption,,
+X,Users,Communicate Passwords,by,Local area network,,
+X,Users,Communicate Passwords,by,Local area network without encryption,,

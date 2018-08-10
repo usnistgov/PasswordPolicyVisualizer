@@ -1,0 +1,23 @@
+# This is a comment
+# This is a comment
+Users must not create passwords in the set of otherwise forbidden content in reverse.
+Users must create passwords with a character in the set of numbers.
+Users must not create passwords with a substring in the set of strings with word or number patterns (unspec).
+Users must not create passwords with a substring in the set of birthdays or other dates.
+Users must not create passwords with a substring in the set of proper nouns.
+Users must create passwords with a character in the set of lower-case letters.
+Users must create passwords with a character in the set of special characters (unspec).
+Users must not create passwords with a substring in the set of personally identifying information.
+Users must create passwords with length greater than or equal to 8 characters.
+Users must not create passwords with a substring equal to the user ID.
+Users must create passwords in the set of strings with at least 2 unique characters.
+Users must not create passwords with length greater than or equal to 17 characters.
+Users must create passwords with a character in the set of numbers, special characters (unspec).
+Users must not create passwords with a substring in the set of addresses or other locations.
+Users must create passwords with a character in the set of upper-case letters.
+Users must not communicate passwords except in an emergency.
+Users must not create passwords with a substring in the set of dictionary words.
+Users must not create passwords with a character in the set of whitespace.
+Users must not create passwords with a first or last character in the set of numbers.
+Users must create passwords with an internal character in the set of numbers.
+Users must create passwords with a character in the first 7 characters in the set of upper-case letters, lower-case letters, numbers, special characters (unspec).

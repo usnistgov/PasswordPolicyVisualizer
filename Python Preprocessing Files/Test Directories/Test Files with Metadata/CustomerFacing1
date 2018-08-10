@@ -1,0 +1,8 @@
+Users must create passwords with a character in the set of numbers.
+Users must create passwords with length greater than or equal to 8 characters.
+Users should create passwords with a character in the set of upper-case letters, lower-case letters.
+Users must not create passwords equal to the user ID.
+Users must not create passwords with length greater than or equal to 21 characters.
+Users must not create passwords with a character in the set of whitespace.
+Users must create passwords with a character in the set of letters (unspec).
+Users must not create passwords with a character in the set of these special characters: $<>&^![].

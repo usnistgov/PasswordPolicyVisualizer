@@ -1,0 +1,3 @@
+# This is a comment
+<filename>CustomerFacing1</filename><policyId>Company 1</policyId><sector>Financial</sector><audience>Customer</audience>
+<filename>CustomerFacing2</filename><policyId>Company 2</policyId><sector>Retail</sector><audience>Customer</audience>

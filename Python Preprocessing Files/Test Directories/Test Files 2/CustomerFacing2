@@ -1,0 +1,10 @@
+# This is a comment
+# This is a comment
+# This is a comment
+Users should not communicate passwords to anyone.
+Users must create passwords with a character in the set of numbers.
+Users must not create passwords with length greater than or equal to 8 characters.
+Users must create passwords with length greater than or equal to 6 characters.
+Users must create passwords with a character in the set of letters (unspec).
+Users must not create passwords with a character in the set of special characters (unspec).
+Users must create passwords with an internal character in the set of numbers.

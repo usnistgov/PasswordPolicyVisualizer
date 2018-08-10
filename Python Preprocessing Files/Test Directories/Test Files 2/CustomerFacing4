@@ -1,0 +1,14 @@
+# This is a comment
+# This is a comment
+# This is a comment
+Users should not store passwords in writing anywhere.
+Users should not create passwords in the set of strings with a run of 3 or more consecutive characters in sequence.
+Users should not create passwords in the set of passwords to any other system.
+Users should not communicate passwords to anyone.
+Users should not store passwords online anywhere.
+Users must not create passwords with length greater than or equal to 9 characters.
+Users should create passwords with all characters in the set of letters (unspec), numbers.
+Users should not create passwords with a substring in the set of proper nouns.
+Users should not create passwords with a substring in the set of strings with word or number patterns (unspec).
+Users should not create passwords with a substring in the set of personally identifying information.
+Users must not create passwords with a character in the set of special characters (unspec).

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+
+ <!-- Code that you see commented out is used for an unfinished feature.-->
+ <!-- The idea was to have the researcher to be able to see how many rules for-->
+ <!-- each file are actually being overlapped.  This was going to be displayed in-->
+ <!-- a seperate popup on clicking...  You will notice that there is also-->
+ <!-- corresponding commented out code in the CSS file.-->
+
+ <!--* Issue: can zoom and pan when hovered over rule categories and modes-->
+
+<head>
+  <meta charset="utf-8">
+  <title> Visualizing Password Policies </title>
+  <script src="https://d3js.org/d3.v5.min.js"></script>
+  <link rel="stylesheet" href="treeStyle.css">
+</head>
+
+<body>
+  <input id="upload1" class="upload-option" type="file" onchange="loadFile(this.id);" style="display:none" />
+  <input id="upload2" class="upload-option" type="file" onchange="loadFile(this.id);" style="display:none" />
+
+  <script src="Scripts/Functions/drawingFunctions.js"></script>
+  <script src="Scripts/Functions/menuFunctions.js"></script>
+  <script src="Scripts/Functions/fileHandling.js"></script>
+  <script src="Scripts/tree.js"></script>
+</body>

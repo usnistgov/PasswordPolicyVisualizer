@@ -1,0 +1,31 @@
+# This is a comment
+# This is a comment
+Users must create passwords with length greater than or equal to 8 characters.
+Users must create passwords with a character in the set of numbers, special characters (unspec).
+Users must not create passwords in the set of strings with a character repeated 5 or more times.
+Users must not create passwords with a character in the set of control or non-printable characters (unspec).
+Users must not create passwords with a substring in the set of vendor default passwords.
+Users must not create passwords with a substring in the set of proper nouns.
+Users must not create passwords with a substring in the set of dictionary words.
+Users must not create passwords with a substring in the set of dictionary words in reverse.
+Users must not create passwords with a substring in the set of addresses or other locations.
+Users must not create passwords with a substring in the set of birthdays or other dates.
+Users must not create passwords with a substring in the set of strings with word or number patterns (unspec).
+Users must not communicate passwords except in an emergency.
+Users must change passwords immediately if shared.
+Users must not store passwords in writing in clear text in an unsecure location.
+Users must not store passwords online in automated scripts.
+Users must not communicate passwords by mail without encryption.
+Users must not communicate passwords by phone mail.
+Users must not communicate passwords by mail accompanied by the user ID.
+Users must not create passwords in the set of passwords to an outside system.
+Users should not communicate passwords by any network without encryption.
+Users must not communicate passwords by Internet or wide-area network without encryption.
+Users must change passwords before 90 days.
+Users must change passwords immediately if compromised.
+Users must change passwords immediately if shared.
+Users must change passwords immediately if found non-compliant.
+Users must change passwords immediately if directed by management.
+Users must not create passwords in the set of their last 2 years of passwords.
+Users must not create passwords in the set of their last 8 passwords.
+Users must not fail to authenticate 4 times to avoid administrative unlock or a 3 minute lockout.

@@ -1,0 +1,5 @@
+Users must create passwords with length greater than or equal to 8 characters.
+Users must create passwords with a character in the set of letters (unspec).
+Users should not create passwords with a substring equal to the user ID.
+Users should not create passwords with a substring in the set of personally identifying information.
+Users must create passwords with a character in the set of numbers.
