@@ -22,4 +22,5 @@ No current installation instructions
  - Elijah Peake - <elijah.peake@gmail.com>
 
 ## Project Contact Information
- - Michelle Steves - <michelle.steves@nist.gov>
+ - Brian Stanton - <brian.stanton@nist.gov>
+ - Michelle Steves
